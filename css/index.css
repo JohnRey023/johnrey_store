@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: right;
+    margin: 20px;
+}
+
+.sign-up button{
+    width: 90px;
+    height: 40px;
+    background-color: rgb(83, 218, 218);
+    border-radius: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    font-style: none;
+    font-family: monospace;
+}
+
+.sign-up button:hover
+{
+    font-size: 20px;
+    background-color: rgb(11, 148, 148);
+    color: white;
+    transition: 1s;
+}
+
+.form-container{
+    margin-top: 30px;
+}
+
+
+.form-container h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.error_msg{
+    color: red;
+
+}
+
+.header h1{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#customer_table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.edit{
+    background-color: aqua;
+}
